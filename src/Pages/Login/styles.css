@@ -1,0 +1,39 @@
+.app-wrapper {
+  max-width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  background-color: #1E2230;
+}
+
+.app-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  height: 60px;
+  padding: 16px;
+
+  background: #1E2230;
+}
+
+.App-logo {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  animation: App-logo-spin infinite 20s linear;
+}
+
+.app-content {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-title {
+  font-size: 32px;
+  font-weight: 700;
+}
